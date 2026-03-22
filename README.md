@@ -23,10 +23,7 @@ npm run dev
 
 ## Datos (Excel)
 
-El Excel **dummy del caso** va versionado en el repo (p. ej. `data/dummy.xlsx` o en la raíz como  
-`Sistema de Análisis Inteligente para Operaciones Rappi - Dummy Data.xlsx`). Tras el `clon` no hace falta descargar datos aparte.
-
-Si el archivo está en otro nombre/ruta, usá `DATA_XLSX_PATH` en `.env`.
+El Excel **dummy del caso** va versionado en el repo. Ruta recomendada (corta, estable en GitHub): **`data/dummy.xlsx`**. También se detecta el nombre largo original en la raíz del proyecto. Si usás **otro nombre**, definí la ruta absoluta en **`DATA_XLSX_PATH`** en `.env` (si no, la app no encuentra el archivo y no carga datos).
 
 Hojas esperadas: **`RAW_INPUT_METRICS`**, **`RAW_ORDERS`**; opcional **`RAW_SUMMARY`**. Se genera `data/app.db` al arrancar (ignorado por git). Detalle de columnas: `lib/excelIngest.js`.
 
