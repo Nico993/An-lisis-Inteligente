@@ -1,0 +1,31 @@
+{
+  "name": "analisis-inteligente",
+  "version": "1.0.0",
+  "description": "Sistema de análisis inteligente — caso Rappi (Next.js + OpenRouter)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cost-example": "node scripts/print-cost-example.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "mathjs": "^15.1.1",
+    "next": "^14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "recharts": "^3.8.0",
+    "remark-gfm": "^4.0.1",
+    "xlsx": "^0.18.5",
+    "zod": "^4.3.6"
+  }
+}

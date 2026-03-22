@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+data/app.db
+data/app.db-shm
+data/app.db-wal
+.env
+.env.local
+.DS_Store
+npm-debug.log*
+.agents/
+skills-lock.json
