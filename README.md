@@ -37,7 +37,6 @@ Hojas esperadas: **`RAW_INPUT_METRICS`**, **`RAW_ORDERS`**; opcional **`RAW_SUMM
 | `OPENROUTER_MODEL` | Opcional; default `openai/o3-mini`. |
 | `DATA_XLSX_PATH` | Opcional; solo si el `.xlsx` no está en ninguna de las rutas por defecto. |
 
-No commitees `.env` (está en `.gitignore`).
 
 ---
 
